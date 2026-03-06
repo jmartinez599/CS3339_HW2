@@ -1,5 +1,7 @@
 # CS3339_HW2
 
+### Team Members
+Jessica Martinez
 
 ### How to compile the code
 The code can be compiled by using the follow g++ command:
