@@ -10,10 +10,13 @@ g++ -o fp_overflow_checker fp_overflow_checker.cpp
 
 ### How to run the code
 
-./fp_overflow_checker
+./fp_overflow_checker <loop_bound> <loop_counter>
 
 Example with possible overflow:
 ./fp_overflow_checker 1e+08 1.0
 
 Example with no overflow:
 ./fp_overflow_checker 1e+05 2.0
+
+Error handling: 
+./fp_overflow_checker 17.0
